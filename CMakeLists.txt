@@ -14,7 +14,7 @@ add_library(${NAME}
         ${sources}
         )
 
-target_include_directories(${NAME} PUBLIC ${PROJECT_SOURCE_DIR}/include)
+target_include_directories(${NAME} PUBLIC ${HEADERS_PATH})
 
 # Link OpenGL with the lib
 if (APPLE AND NOT IOS)
