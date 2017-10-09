@@ -9,7 +9,7 @@ file(GLOB_RECURSE headers "${HEADERS_PATH}/*.h")
 file(GLOB_RECURSE sources "${SOURCES_PATH}/*.c")
 
 add_library(${NAME}
-        SHARED
+        STATIC
         ${headers}
         ${sources}
         )
