@@ -32,5 +32,5 @@ target_compile_features(${NAME} PUBLIC cxx_strong_enums)
 # Add subdirectories
 #--------------------------------------------------------------------
 if (NANOVG_BUILD_EXAMPLES)
-    add_subdirectory(examples)
+    add_subdirectory(example)
 endif()
